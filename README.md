@@ -17,7 +17,7 @@ A Bash script to automate disk usage monitoring on Linux systems. Logs are store
 1. Clone the repo:
    ```bash
    git clone https://github.com/neurospicydev/disk-usage_logger.git
-   cd disk-usage-logger
+   cd disk-usage_logger
    ```
 2. Make the script executable:
    ```bash
