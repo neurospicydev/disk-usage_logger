@@ -1,13 +1,13 @@
-# Disk Usage Logger 🖥️
+# Disk Usage Logger
 
 A Bash script to automate disk usage monitoring on Linux systems. Logs are stored daily and auto-cleaned after 30 days.
 
-## Features ✨
+## Features
 - Logs disk usage with timestamps.
 - Self-cleaning (deletes logs older than 30 days).
 - No `sudo` required (runs in user space).
 
-## Usage 🚀
+## Usage
 
 ### Prerequisites
 - Linux/macOS system (tested on Ubuntu 20.04 LTS).
@@ -35,7 +35,7 @@ To run daily at 9 AM:
    0 9 * * * /bin/bash /path/to/disk_logger.sh
    ```
 
-## Log Structure 📝
+## Log Structure
 Logs are stored in `~/disk_usage_logs/usage_YYYY-MM-DD.log`.  
 Example:
 ```
@@ -45,5 +45,5 @@ Filesystem      Size  Used Avail Use% Mounted on
 ----------------------------------------
 ```
 
-## Contributing 🤝
+## Contributing
 PRs welcome! Ensure scripts follow [ShellCheck](https://www.shellcheck.net/) standards.
